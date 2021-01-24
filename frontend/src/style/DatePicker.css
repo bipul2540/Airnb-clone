@@ -1,0 +1,87 @@
+.datePicker {
+  position: absolute;
+  top: 35px;
+  left: 25%;
+  width: 100vw;
+  z-index: 99;
+}
+/* .datepicker__card {
+  border: 2px solid red;
+} */
+
+@media screen and (max-width: 668px) {
+  .datePicker {
+    left: 0;
+  }
+}
+
+.datepicker__options {
+  position: absolute;
+  top: 360px;
+  display: flex;
+  flex-direction: column;
+  width: 578px;
+  white-space: nowrap;
+  align-items: stretch;
+  justify-content: stretch;
+  background-color: white;
+}
+
+.datepicker__options h2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.datepicker__options input {
+  height: 25px;
+}
+
+.datepicker__options button {
+  color: white;
+  background-color: #ff7779;
+}
+
+.datepicker__options button:hover {
+  color: #ff7779;
+  background-color: white;
+}
+
+/* .datePicker h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 559px;
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  top: 344px;
+}
+.datePicker input {
+  width: 539px;
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  height: 30px;
+  top: 390px;
+  border: 1px solid lightgrey;
+}
+
+.datePicker input:focus {
+  outline: none;
+}
+
+.datePicker .datePicker__button {
+  position: absolute;
+  left: 0;
+  top: 450px;
+  text-transform: inherit !important;
+  background-color: #ff7779;
+  color: white;
+  width: 579px;
+}
+
+.datePicker > .datePicker__button:hover {
+  background-color: white;
+  color: #ff7779;
+} */

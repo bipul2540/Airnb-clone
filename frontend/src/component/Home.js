@@ -1,10 +1,23 @@
 import React from "react";
 import "./../style/Home.css";
+import Banner from "./Banner";
+import Card from "./Card";
 
 function Home() {
   return (
     <div className="home">
-      <h1>Home components</h1>
+      <Banner />
+
+      <div className="home__sections">
+        <Card />
+        <Card />
+        <Card />
+      </div>
+      <div className="home__sections">
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </div>
   );
 }
