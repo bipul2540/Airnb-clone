@@ -15,8 +15,8 @@
 .header__icon {
   object-fit: contain;
   height: 50px;
-  margin-left: 20px;
-  width: 120px;
+  margin-left: 10px;
+  width: 100px;
 }
 
 .header__center {
@@ -29,6 +29,7 @@
   height: 20px;
   border: 1px solid lightgrey;
   border-radius: 999px;
+  margin: 10px;
 }
 
 .header__center input {
@@ -42,6 +43,6 @@
   display: flex;
   align-items: center;
   margin-right: 20px;
-  width: 15vw;
+  /* width: 15vw; */
   justify-content: space-between;
 }
